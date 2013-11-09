@@ -1,0 +1,237 @@
+.canvas {
+font-family: tahoma;
+}
+
+.draggable
+{
+	position: absolute;
+	cursor: move;
+	z-index: 1;
+}
+
+.connector
+{
+	background-color: gray;
+}
+
+.dock_point
+{
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	padding: 0px !important;
+	border: none !important;
+	margin: 0px !important;
+	position: absolute;
+	font-size: 1px;
+	visibility: hidden;
+}
+
+.block 
+{ 
+	position: absolute; 
+    /*border: 1px solid gray;*/
+    padding: 10px;	
+    text-align: center;
+}
+
+.function
+{
+	width: 150px;
+	border-radius: 10px;
+    background-color: #aebe7c;
+    border: 1px solid gray;
+}
+
+.dec_function
+{
+	width: 150px;
+	border-radius: 10px;
+    background-color: #ffbdbd;
+    border: 1px solid gray;
+}
+
+.sup_function
+{
+	border-radius: 10px;
+    background-color: #d8e0c2;
+    border: 1px solid gray;
+}
+
+.sup_dec_function
+{
+	width: 150px;
+	border-radius: 10px;
+    background-color: #ffd5d5;
+    border: 1px solid gray;
+}
+
+.in_data
+{
+	width: 150px;
+    background-color: #b3b3b3;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 25px;
+    padding: 20px;
+    border-image: url(in_data.png) 0 0 200 0 round;    
+}
+
+.out_data
+{
+	width: 150px;
+    background-color: #e7e7e7;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 25px;
+    padding: 20px;
+    border-image: url(out_data.png) 0 0 200 0 round;  
+}
+
+.in_doc
+{
+	width: 150px;
+    background-color: #f4caa8;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 25px;
+    padding: 20px;
+    border-image: url(in_doc.png) 0 0 200 0 round;    
+}
+
+.out_doc
+{
+	width: 150px;
+    background-color: #f9e1cb;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 25px;
+    padding: 20px;
+    border-image: url(out_doc.png) 0 0 200 0 round;    
+}
+
+.in_sup
+{
+	width: 150px;
+    background-color: #f7f7f7;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 25px;
+    padding: 20px;
+    border-image: url(in_sup.png) 0 0 200 0 round;    
+}
+
+.out_sup
+{
+	width: 150px;
+    background-color: #f7f7f7;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 25px;
+    padding: 20px;
+    border-image: url(in_sup.png) 0 0 200 0 round;    
+}
+
+.asset
+{
+	width: 150px;	
+    background-size: 100% 100%;
+    padding: 20px 30px 20px 30px;
+    background-image: url(asset.png);  	
+}
+
+.event
+{
+	width: 150px;	
+    background-size: 100% 100%;
+    padding: 20px 30px 20px 30px;
+    background-image: url(event.png);  	
+}
+
+.sup_event
+{
+	width: 150px;	
+    background-size: 100% 100%;
+    padding: 20px 30px 20px 30px;
+    background-image: url(event.png);  	
+}
+
+.sup_doc
+{
+	width: 150px;
+    background-color: #f4ccab;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 25px;
+    padding: 20px;
+    border-image: url(sup_doc.png) 0 0 200 0 round;   	
+}
+
+.x_doc
+{
+	width: 150px;	
+    background-size: 100% 100%;
+    padding: 20px 20px 40px 20px;
+    background-image: url(x_doc.png);  	
+}
+
+.org
+{
+	width: 150px;	
+    background-size: 100% 100%;
+    padding: 20px 30px 20px 30px;
+    background-image: url(org.png); 
+}
+
+.atr
+{
+	width: 150px;
+    background-color: #e9e9e9;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 25px;
+    padding: 20px;
+    border-image: url(atr.png) 0 0 200 0 round;  
+}
+
+.or
+{
+	width: 25px;
+	height: 25px;
+    background-size: 100% 100%;	
+    background-image: url(or.png); 
+}
+
+.xor
+{
+	width: 25px;
+	height: 25px;	
+	background-size: 100% 100%;
+    background-image: url(xor.png); 
+}
+
+.and
+{
+	width: 25px;
+	height: 25px;	
+	background-size: 100% 100%;
+    background-image: url(and.png); 
+}
+
+.service
+{
+	width: 25px;
+	height: 25px;	
+    background-size: 100% 100%;	
+    background-image: url(service.png); 
+}
+
+.middle-label
+{
+	padding: 3px;
+}
+
+.source-label, .destination-label
+{
+	padding: 6px;
+}

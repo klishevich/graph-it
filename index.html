@@ -1,0 +1,67 @@
+<html>
+  <head>
+  	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="js-graph-it.js"></script>
+    <link rel="stylesheet" type="text/css" href="js-graph-it.css">
+  </head>
+  <body onload="initPageObjects();">
+  	<h1>ЕАИСТ 2.0</h1>
+    <div class="canvas" id="mainCanvas" style="width: 1200px; height: 1200px; border: 1px solid black;">
+      <p class="block draggable in_data" id="block_01" style="left: 50px; top: 50px;">
+        Входные данные
+      </p>
+      <p class="block draggable out_data" id="block_02" style="left: 50px; top: 150px;">
+        Выходные данные
+      </p>      
+      <p class="block draggable in_doc" id="block_03" style="left: 50px; top: 250px;">
+        Входящий документ
+      </p>
+      <p class="block draggable in_sup" id="block_04" style="left: 50px; top: 350px;">
+        Необязательные входные данные
+      </p>
+      <p class="block draggable out_sup" id="block_05" style="left: 50px; top: 480px;">
+        Необязательные выходные данные
+      </p>      
+      <p class="block draggable asset" id="block_06" style="left: 300px; top: 50px;">
+        Средства
+      </p>
+      <p class="block draggable event" id="block_07" style="left: 300px; top: 150px;">
+        Событие
+      </p>
+      <p class="block draggable out_doc" id="block_08" style="left: 300px; top: 250px;">
+        Выходящий документ
+      </p>
+      <p class="block draggable sup_event" id="block_09" style="left: 300px; top: 380px;">
+        Необязательное событие
+      </p>      
+      <p class="block draggable org" id="block_10" style="left: 550px; top: 50px;">
+        Подразделение/Организация
+      </p> 
+      <p class="block draggable atr" id="block_11" style="left: 550px; top: 150px;">
+        Атрибуты
+      </p> 
+      <p class="block draggable sup_doc" id="block_12" style="left: 550px; top: 250px;">
+        Необязательный документ
+      </p>      
+      <p class="block draggable sup_dec_function" id="block_13" style="left: 550px; top: 380px;">
+        Необязательная декомпозированная функция
+      </p>      
+      <p class="block draggable function" id="block_14" style="left: 800px; top: 50px;">
+        Функция
+      </p>
+      <p class="block draggable dec_function" id="block_15" style="left: 800px; top: 150px;">
+        <a href="http://busation.com">Декомпозированная функция</a>
+      </p>
+      <p class="block draggable x_doc" id="block_16" style="left: 800px; top: 250px;">
+        Документ не имеющий конкретного источника
+      </p>
+      <p class="block draggable sup_function" id="block_17" style="left: 800px; top: 400px;">
+        Необязательная функция
+      </p>
+      <p class="block draggable or" id="block_18" style="left: 1100px; top: 50px;"></p>
+      <p class="block draggable xor" id="block_19" style="left: 1100px; top: 150px;"></p>
+      <p class="block draggable and" id="block_20" style="left: 1100px; top: 250px;"></p>
+      <p class="block draggable service" id="block_21" style="left: 1100px; top: 350px;"></p>            
+    </div>
+  </body>
+</html>
