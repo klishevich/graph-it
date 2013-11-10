@@ -1,0 +1,72 @@
+<html>
+  <head>
+  	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="js-graph-it.js"></script>
+    <link rel="stylesheet" type="text/css" href="js-graph-it.css">
+  </head>
+    <body onload="initPageObjects();">  	
+  	<h1>А0. Общий процесс</h1>
+    <div class="canvas" id="mainCanvas" style="width: 1400px; height: 800px; border: 1px solid black;">    
+      <p class="block draggable event" id="event1" style="left: 788px; top: 0px;">
+        Начало нового планового периода
+      </p>    	
+      <p class="block draggable event" id="event2" style="left: 930px; top: 69px;">
+        Доведение (изменение) лимитов/свободных лимитов
+      </p>   
+      <p class="block draggable event" id="event3" style="left: 1162px; top: 0px;">
+        Выявлены несоответствия плана-графика объемам закупок СМП, инновационной продукции, объема котировок и иных комплексных проверок 
+      </p>       
+      <p class="block draggable in_data" id="in_data1" style="left: 50px; top: 100px;">
+        Доведение (изменение) лимитов финансирования (включая экономию) (АСУ ГФ)
+      </p>      
+      <p class="block draggable x_doc" id="x_doc1" style="left: 166px; top: 214px;">
+        Оперативные поручения
+      </p>      
+      <p class="block draggable x_doc" id="x_doc2" style="left: 270px; top: 100px;">
+        Правовой акт
+      </p>       
+      <p class="block draggable in_doc" id="in_doc1" style="left: 380px; top: 200px;">
+        Предписание Главконтроля <br/>(АИС Главконтроль)
+      </p>   
+      <p class="block draggable in_doc" id="in_doc2" style="left: 490px; top: 100px;">
+        Протокол МРГ<br/>(РГ ГРБС)
+      </p>            
+      <p class="block draggable in_doc" id="in_doc3" style="left: 600px; top: 200px;">
+        Экспертное заключение по НМЦ
+      </p>       
+      <p class="block draggable in_doc" id="in_doc4" style="left: 710px; top: 100px;">
+        Итоговый протокол общественных обсуждений
+      </p>      
+      <p class="block draggable in_doc" id="in_doc5" style="left: 50px; top: 400px;">
+        Извещение об отмене определения поставщика
+      </p> 
+      <p class="block draggable function" id="a1" style="left: 949px; top: 300px;">
+        А1. Планирование
+      </p>
+      <p class="block draggable asset" id="asset1" style="left: 1158px; top: 301px;">ЕАИСТ 2.0</p>      
+      <p class="block draggable function" id="a2" style="left: 1043px; top: 400px;">
+        А2. Определение поставщика
+      </p>            
+      <p class="block draggable function" id="a3" style="left: 1043px; top: 5000px;">
+        А3. Заключение контракта
+      </p>   
+      <p class="block draggable function" id="a4" style="left: 1043px; top: 600px;">
+        А4. Исполнение контракта
+      </p>   
+      <p class="block draggable function" id="a5" style="left: 1043px; top: 700px;">
+        А5. Оценка степени достижения цели осуществления закупки
+      </p>        
+	  <div class="connector event1 a1 down_start down_end"><img src="arrow.gif" class="connector-end"></div>  
+	  <div class="connector event2 a1 down_end"><img src="arrow.gif" class="connector-end"></div>  
+	  <div class="connector event3 a1 down_end"><img src="arrow.gif" class="connector-end"></div>
+	  <div class="connector in_data1 a1 down_start right_end"><img src="arrow.gif" class="connector-end"></div>
+	  <div class="connector x_doc1 a1 down_start right_end"><img src="arrow.gif" class="connector-end"></div>
+	  <div class="connector x_doc2 a1 down_start right_end"><img src="arrow.gif" class="connector-end"></div>
+	  <div class="connector in_doc1 a1 down_start right_end"><img src="arrow.gif" class="connector-end"></div>
+	  <div class="connector in_doc2 a1 down_start right_end"><img src="arrow.gif" class="connector-end"></div> 
+	  <div class="connector in_doc3 a1 down_start right_end"><img src="arrow.gif" class="connector-end"></div> 
+	  <div class="connector in_doc4 a1 down_start right_end"><img src="arrow.gif" class="connector-end"></div>
+	  <div class="connector in_doc5 a1 up_start right_end"><img src="arrow.gif" class="connector-end"></div> 
+      <div class="connector a1 asset1"></div>    
+    </body>
+</html>
